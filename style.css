@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0; 
+}
+.fundo{
+    background-image: linear-gradient(#232625,#35403A,#4D5950);
+    height: 100vh;
+    color: #BFBFB8;
+    font-family: "Work-Sans"Arial, Helvetica;
+    text-align: center;
+}
+#resultado{
+  width: 207;
+  height: 40px;
+  background-color:#dcdcd7;
+  margin: 5px;
+  border-radius: 20px;
+  color: #35403A;
+  font-size: 25px;
+  text-align: right;
+  padding: 5px;
+}
+.calculadora{
+    position: absolute;
+    background-color: #a3a69c6f;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    padding: 18px;
+}
+.botao{
+  background: #BFBFB8;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 2px;
+
+}
+.botao:hover{
+  background: #dcdcd7;
+}
